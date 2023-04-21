@@ -1,9 +1,9 @@
 # MpThreatDetectionTool
 Windows Defenderで新しい脅威を検知したらイベントログにエラーを出すスクリプト
-<BR>
+<BR><BR>
 MpThreatDetectionTool.ps1をc:\tmpに置いて、<BR>
 MpThreatDetectionTool.vbsをタスクスケジューラで起動する。<BR>
-<BR>
+<BR><BR>
 1.タスクスケジューラを開きます。<BR>
 2.右クリックメニューから「タスクの作成」を選択します。<BR>
 3.「全般」タブで、名前と説明を入力します。<BR>
@@ -15,6 +15,6 @@ MpThreatDetectionTool.vbsをタスクスケジューラで起動する。<BR>
 9.「条件」タブで、必要に応じてタスクの実行条件を設定します。<BR>
  毎日9:00に開始<BR>
 10.「設定」タブで、必要に応じてタスクの詳細設定を変更します。<BR>
- 繰り返し間隔:5分間<BR>
+ 繰り返し間隔:10分間<BR>
  継続時間:1日間<BR>
 11.「OK」をクリックしてタスクを作成します。<BR>
